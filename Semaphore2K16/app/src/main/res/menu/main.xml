@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/coordinator"
+        android:orderInCategory="100"
+        android:title="@string/coordi"
+        android:onClick="openCoordi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contributer"
+        android:orderInCategory="100"
+        android:title="@string/contributer"
+        android:onClick="openContri"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/gallary_action"
+        android:title="Gallary"
+        android:icon="@mipmap/ic_galary"
+        android:onClick="openGallery"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
