@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mitech.semaphore2k16">
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- permission needed to check app state background / foreground -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!--
+      IMPORTANT: Change "info.androidhive.parsenotifications.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <permission
+        android:name="com.mitech.semaphore2k16.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.mitech.semaphore2k16.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".event.pushnotify.Initialize"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".event.Splash"
+            android:label="@string/app_name"
+            android:logo="@mipmap/logo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".event.About"
+            android:label="@string/about"
+            android:parentActivityName=".event.Welcome">
+        </activity>
+
+        <activity
+            android:name=".event.Contri"
+            android:label="Contributers"
+            android:theme="@android:style/Theme.Dialog"
+            android:parentActivityName=".event.Welcome">
+        </activity>
+
+
+        <activity
+            android:name=".event.Coordi"
+            android:label="Co-ordinators"
+            android:parentActivityName=".event.Welcome">
+        </activity>
+
+        <activity
+            android:name=".event.Welcome"
+            android:theme="@style/AppTheme"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity android:name=".event.MainActivity"
+            android:label="@string/event"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".event.Welcome" />
+
+
+        <activity android:name=".event.Result"
+            android:label="@string/result"
+            android:parentActivityName=".event.Welcome" />
+
+        <activity android:name=".event.Schedule"
+            android:label="Schedule"
+            android:parentActivityName=".event.Welcome" />
+
+
+        <!-- Added for Parse push notifications -->
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name=".event.pushnotify.CustomPushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "info.androidhive.parsenotifications" to match your app's package name. -->
+                <category android:name="com.mitech.semaphore2k16"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- /Added for Parse push notifications -->
+    </application>
+
+</manifest>

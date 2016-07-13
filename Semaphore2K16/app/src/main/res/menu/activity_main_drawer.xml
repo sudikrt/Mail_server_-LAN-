@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_codeing"
+            android:icon="@mipmap/ic_launcher_code"
+            android:title="@string/nav_coding_title" />
+
+        <item
+            android:id="@+id/nav_app"
+            android:icon="@mipmap/ic_app"
+            android:title="@string/nav_web_title" />
+
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@mipmap/ic_launcher_web"
+            android:title="@string/nav_app_title"
+            />
+
+        <item
+            android:id="@+id/nav_itmgr"
+            android:icon="@mipmap/ic_it_mgr"
+            android:title="@string/nav_itmgr_title" />
+
+        <item
+            android:id="@+id/nav_trhnt"
+            android:icon="@mipmap/ic_launcher_treas"
+            android:title="@string/nav_trsr_title" />
+
+        <item
+            android:id="@+id/nav_itdebat"
+            android:icon="@mipmap/ic_debate"
+            android:title="@string/nav_itdebate_title" />
+
+        <item
+            android:id="@+id/nav_gaming"
+            android:icon="@mipmap/gaming_img"
+            android:title="@string/nav_gaming_title" />
+
+        <item
+            android:id="@+id/nav_madad"
+            android:icon="@mipmap/imad"
+            android:title="@string/nav_mad_title" />
+
+        <item
+            android:id="@+id/nav_img"
+            android:icon="@mipmap/ic_img_edit"
+            android:title="@string/nav_img_title" />
+
+        <item
+            android:id="@+id/nav_paper"
+            android:icon="@mipmap/ic_launcher_paper"
+            android:title="@string/nav_paper_title" />
+
+        <item
+            android:id="@+id/nav_itquiz"
+            android:icon="@mipmap/ic_launcher_quiz"
+            android:title="@string/nav_itquiz_title" />
+
+        <item
+            android:id="@+id/nav_cultural"
+            android:icon="@mipmap/ic_cultural"
+            android:title="@string/nav_cultural_title" />
+
+        <item
+            android:id="@+id/nav_ice"
+            android:icon="@mipmap/ice_break"
+            android:title="@string/nav_ice_title" />
+
+    </group>
+
+
+</menu>
