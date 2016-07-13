@@ -1,0 +1,710 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Semaphore\'16</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="coordi">Co-Ordinator</string>
+    <string name="contributer">Contributers</string>
+    <string name="contri_text">Sudarshan Karanth</string>
+
+    <!-- Semaphore Description -->
+    <string name="about_string">
+        <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color: white;
+        }
+        </style>
+        </head>
+        <body style="background-color:#FF4081;">
+        <h2 align="center">Semaphore</h2>
+        <hr></hr>
+        <p style="text-align:justify; color:gray;">
+        The word \"Semaphore\" is the derived from the Greek words \"sema\" meaning \"sign\" and \"phore\" means \"bear\".
+        The slogan,  \"Bearing the sign of excellence\" aptly describes our desire in organizing this event.
+        The department emphasizes on student activities and encourages talent through a Student Association of MCA (SAMCA).
+        Semphore\'16 is one such activity which aims to bring out the hidden talents of the students by providing a platform for
+        the youth to exchange the information and enhance their IT skills.
+        </p>
+      </body>
+      </html>]]>
+
+        </string>
+
+
+    <!--Button Name of welcome screen-->
+    <string name="btn_about_title">About</string>
+    <string name="btn_event_title">Events</string>
+    <string name="btn_result_title">Results</string>
+    <string name="btn_reg_title">Regestration</string>
+    <string name="btn_gallary_title">Gallary</string>
+    <string name="btn_schedule_title">Schedule</string>
+    <string name="btn_visit_title">Visit Site</string>
+
+
+
+
+    <!-- Activity Names -->
+    <string name="gallary">Gallary</string>
+    <string name="about">About</string>
+    <string name="result">Results</string>
+    <string name="event">Events</string>
+
+    <!--Event heads and their Contact Details -->
+    <string name="cod_contact_1">+91 85539 73266</string>
+    <string name="cod_contact_2">+91 77604 02436</string>
+
+    <string name="cod_name_1">Sudarshan</string>
+    <string name="cod_name_2">Harsha</string>
+
+    <string name="web_contact_1">+91 89711 17136</string>
+    <string name="web_contact_2">+91 99646 83081</string>
+
+    <string name="web_name_1">Alia</string>
+    <string name="web_name_2">Ansaruddin</string>
+
+    <string name="app_contact_1">+91 72049 81838</string>
+    <string name="app_contact_2">+91 96202 89642</string>
+
+    <string name="itmgr_contact_1">+91 73536 80933</string>
+    <string name="itmgr_contact_2">+91 94838 71877</string>
+
+    <string name="treasure_contact_1">+91 77600 91386</string>
+    <string name="treasure_contact_2">+91 90088 43409</string>
+
+    <string name="treasure_name_1">Veena</string>
+    <string name="treasure_name_2">Ashish</string>
+
+    <string name="gaming_contact_1">+91 98802 05198</string>
+    <string name="gaming_contact_2">+91 97289 82056</string>
+
+    <string name="gaming_name_1">Nandish</string>
+    <string name="gaming_name_2">Rakesh</string>
+
+
+    <string name="cultural_contact_1">+91 77602 88186</string>
+    <string name="cultural_contact_2">+91 80509 11308</string>
+
+    <string name="ice_contact_1">+91 81054 88527</string>
+    <string name="ice_contact_2">+91 80953 18731</string>
+
+    <string name="app__0">Sunil Shenoy</string>
+    <string name="app__1">Nisha Ammunje</string>
+
+    <string name="app_1">+91 96325 34595</string>
+    <string name="app_2">+91 77951 53673</string>
+
+    <string name="app_name_1">Sachin</string>
+    <string name="app_name_2">Vicky</string>
+
+    <string name="itmgr_name_1">Divya</string>
+    <string name="itmgr_name_2">Dilip</string>
+
+
+    <string name="itdebate_name_1">Shruthi</string>
+    <string name="itdebate_name_2">Cleeta</string>
+
+    <string name="itdebate_contact_1">+91 99007 71586</string>
+    <string name="itdebate_contact_2">+91 89741 40501</string>
+
+    <string name="mad_name_1">Veeksha</string>
+    <string name="mad_name_2">Ullas</string>
+
+    <string name="mad_contact_1">+91 80502 35481</string>
+    <string name="mad_contact_2">+91 80503 78705</string>
+
+    <string name="img_name_1">Vinayak</string>
+    <string name="img_name_2">Hemalatha</string>
+
+    <string name="img_contact_1">+91 81057 68701</string>
+    <string name="img_contact_2">+91 81474 34293</string>
+
+    <string name="paper_name_1">Shruthi, Shifali</string>
+    <string name="paper_name_2">Deepak          </string>
+
+    <string name="paper_contact_1">+91 81975 97931</string>
+    <string name="paper_contact_2">+91 90080 95118</string>
+
+    <string name="itquiz_name_1">Joshna</string>
+    <string name="itquiz_name_2">Abhishek</string>
+
+    <string name="itquiz_contact_1">+91 82770 62723</string>
+    <string name="itquiz_contact_2">+91 88928 91146</string>
+
+    <string name="cultural_name_1">Priya</string>
+    <string name="cultural_name_2">Anupama</string>
+
+    <string name="ice_name_1">Amra</string>
+    <string name="ice_name_2">Chaitra</string>
+
+
+
+    <!-- Info about event -->
+    <string name="dat">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">Semaphore2k16</h1>
+        <p style="text-align:center;">Bearing the sign of excellence</p>
+        <hr></hr>
+        <p style="text-align:justify;">
+        Semaphore is the South India Level Inter-collegiate Tech-fest organized by MCA Department NMAMIT Nitte. As many years
+        the event promises to be funfilled with various events that includes coding/games/quiz/dance etc. We cordially
+        invite you to be a part of Semaphore.</br>
+        Come on.. join hands with us.. to make it success.</br>
+        <p> </br></p>
+
+        (Swipe from left to right to see the event list.)
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <!--Event Details -->
+    <string name="coding">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">SAMHITA</h1>
+        <p style="text-align:center;">Code won\'t lie.. Comments may....!</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two participants from each team.</br>
+        2.Languages to be known are C/C++ ,JAVA. </br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+
+    <string name="App_development">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">AAVEDAHA PRAGATHI</h1>
+        <p style="text-align:center;">Build The Best App.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two participants from each team.</br>
+        2.Languages to be known are CSS,ASP.net with C#,JQuery. </br>
+        3.IDE provided: visual studio10.,SQLSERVER 08.</br>
+        4.Topic will be provided on spot.</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+
+    <string name="IT_DEBATE">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">VAAK SAMARA</h1>
+        <p style="text-align:center;">Knock Your Brains And Articulate Your Thoughts.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two members from each College.</br>
+        2.Topics will be given 1 hour prior to the debate round.</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <string name="Best_IT_Manager">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">UTTAMA PRABHANDHAKA</h1>
+        <p style="text-align:center;">Crave Your Brainstrom To Handle Your Stress.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.One participant from each team</br>
+        2.The student participating in IT Manager is not supposed to participate in Any other event</br>
+          except SAMSKRUTHIKA (TechFun) and HIMA KHANDANA(Ice Breaker).</br>
+        3.Participant is not supposed to reveal his code after registration.</br>
+        4.Pen Drive, dongle and laptops are allowed.</br>
+        5.Judges decision will be final. </br>
+     </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <string name="IT_Quiz">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">RASPARASHNA</h1>
+        <p style="text-align:center;">The Longer You Wait,The Harder It Gets.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two members must form a team from each college.</br>
+        2.The decision of the Quiz master will be final and will not be subjected to any change.</br>
+        3.The participants shall not be allowed to use mobile or other electronic device at the time of event</br>
+     </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <string name="Paper_Presentation">
+       <![CDATA[ <html>
+        <head>
+         <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">PATRIKA PARISHODHANA</h1>
+        <p style="text-align:center;">Boggle the Minds Of Your Spectators With Yous Presentation.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.One participant from each team.</br>
+        2.Participant must get their laptop to do presentation.</br>
+        3.Participants are requested to submit their presentation copy prior to 2-3days before the event take place without fail</br>
+     </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <string name="Mad_Ad">
+       <![CDATA[ <html>
+        <head>
+           <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">MAADA VIGYAPANAM</h1>
+        <p style="text-align:center;">Think Outside The Box Because It\'s A Minute To Advertise It.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Four Participants from each team, two for the first round and four for the second round.</br>
+        2.The advertisement prepared by the contestants must not contain  any obscene words/any subject that hurts the feelings of culture/language/religion/region.</br>
+        3.Participants are requested to submit their presentation copy prior to 2-3days before the event take place without fail</br>
+     </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <string name="Ice_breaker">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">HIMA KHANDANA</h1>
+        <p style="text-align:center;">Break The Ice, Let It Snow.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.All Participants must compulsory take part in this event.</br>
+        2.Time allotted for each team is 3+1 minutes.</br>
+        3.This event will add grace points to over all championship only.</br>
+        4.Theme will be displayed on 11th Feb 2016 on Semaphore website.</br>
+        5.Do not use fire, color and water on stage.</br>
+        6.Vulgarity will lead to disqualification.</br>
+       </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="Img_video">
+       <![CDATA[ <html>
+        <head>
+         <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">CHITRAMUDRIKA PARISHKRANA</h1>
+        <p style="text-align:center;">Lets Create Memories In A Flash!</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two participants from each team.</br>
+        2.Topics will be given on the spot.</br>
+        3.Participants can bring laptop(with software).otherwise software will be provided</br>
+        4.Pen drive,dongle are allowed.</br>
+        5.Participants should bring their own camera (lens focal length should be 18-55mm or 55-250mm).</br>
+       </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="Treasure">
+       <![CDATA[ <html>
+        <head>
+         <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">NIDI SHODHAN</h1>
+        <p style="text-align:center;">Hunt In Your Own Style,Get Your Win.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two participants from each team.</br>
+        2.Participants of this event cannot take part in any other event except cultural and ice breaker.</br>
+        3.Details of the round will be disclosed on the spot.</br>
+       </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="Gaming">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">DHYUTHA</h1>
+        <p style="text-align:center;">Get Along.. Game On..!! It\'s E-Sport Showdown!!</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.Two participants from each team.</br>
+        2.Cheat codes are not allowed.</br>
+        3.Participants must have proficiency in COUNTER STRIKE and BLUR.</br>
+        4.Use of joystick will not be allowed.</br>
+        5.Stick to the basic rules of gaming.</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="Cultural">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body >
+        <h1 style="text-align:center;">SAMSKRUTHIKA</h1>
+        <p style="text-align:center;">Always Art Matters More Than Spelling,Discover Your Inner Beauty In Art.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+        1.All team members must compulsorily participate in this event.</br>
+        2.Time allotted for each team is 5+1minutes.</br>
+        3.A team which will not take part in this event will not be considered for championship.</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="web_design">
+       <![CDATA[ <html>
+        <head>
+        <style>
+        body{
+        color:white;
+        background-color:gray;
+        }
+        </style>
+        </head>
+        <body>
+        <h1 style="text-align:center;">JAALA YOJANA</h1>
+        <p style="text-align:center;">Crave Your Desire To Design,The Cyber.</p>
+        <h2>Rules:</h2>
+        <hr></hr>
+        <p style="text-align:justify;">
+         1.Two participants from each team.</br>
+         2.Language to be known are HTML,CSS,and AJAX.</br>
+         3.IDE will be provided are Adobe Dreamweaver,Adobe Photoshop.</br>
+         4.Topic will be informed on the spot.</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+<string name="dept_info">
+       <![CDATA[ <html>
+        <head>
+
+        </head>
+        <body>
+        <h1 style="text-align:center;">Co-ordinators</h1>
+        <hr></hr>
+        <p style="text-align:justify;">
+        <h2><u>Dept. Heads:</u></h2>
+        <p>
+            Dr. K.M. Hegde </br>
+               Director</br>
+             MCA Department</br>
+</br>
+            Dr. Karuna Pandit </br>
+                   HOD</br>
+             MCA Department</br>
+            M: +91 99640 71440</br>
+         </p>
+        <h2><u>Staff Co-ordinator:</u></h2>
+        <p>
+            Ms. Pallavi Shetty</br>
+              MCA Department</br>
+            M: +91 98809 06805</br>
+       <p>
+
+        <h2><u>Student Co-ordinators:</u></h2>
+        <p>
+            Mr. Sunil Shenoy</br>
+            SAMCA President</br>
+            M: +91 96325 34595</br>
+</br>
+            Ms. Ashwini S.</br>
+            SAMCA Secretary</br>
+            M: +91 88843 46224</br>
+</br>
+            Ms. Nisha Ammunje</br>
+            Semaphore Secretary</br>
+            M: +91 77951 53673</br>
+        </p>
+      </body>
+      </html>]]>
+    </string>
+
+    <!-- Nav Event Titles -->
+    <string name="nav_coding_title">SAMHITA</string>
+    <string name="nav_web_title">AAVEDANA PRAGATHI</string>
+    <string name="nav_app_title">JAALA-YOJANA</string>
+    <string name="nav_itmgr_title">UTTAMA PRABHANDHAKA</string>
+    <string name="nav_trsr_title">NIDHI SHODHAN</string>
+    <string name="nav_itdebate_title">VAAK-SAMARA</string>
+    <string name="nav_gaming_title">DHYUTA</string>
+    <string name="nav_mad_title">MAADA VIGYAPANAM</string>
+    <string name="nav_img_title">CHITRAMUDRIKA PARISHKARANA</string>
+    <string name="nav_paper_title">PATRIKA PARISHODHANA</string>
+    <string name="nav_itquiz_title">RASAPRASHNA</string>
+    <string name="nav_cultural_title">SAMSKRUTHIKA</string>
+    <string name="nav_ice_title">HIMA KHANDANA</string>
+
+
+    <string name="e_name0">Registration</string>
+    <string name="e_venu0">College Outlet</string>
+    <string name="e_time0">8.00-9.00am</string>
+
+
+    <string name="e_name1">Breakfast</string>
+    <string name="e_venu1">Sadanand Auditorium</string>
+    <string name="e_time1">8.00-9.00am</string>
+
+    <string name="e_name2">Inauguration</string>
+    <string name="e_venu2">Sambrama Auditorium</string>
+    <string name="e_time2">9.00-11.00am</string>
+
+    <string name="e_name3">Hima Khandana</string>
+    <string name="e_venu3">Sambrama Auditorium</string>
+    <string name="e_time3">11.00-12.00am</string>
+
+    <string name="e_name4">Uttama Prabhandhaka</string>
+    <string name="e_venu4">Seminar Hall \nSeminar Hall \nSeminar Hall</string>
+    <string name="e_time4">12.00-1.00pm \n2.00-3.30pm \n4.00-5.00pm</string>
+
+    <string name="e_name5">Nidhi Shodhan</string>
+    <string name="e_venu5">Class room 401 \nClass room 402</string>
+    <string name="e_time5">12.00-1.30pm \n2.00-4.30pm</string>
+
+    <string name="e_name6">Samhita</string>
+    <string name="e_venu6">Lab2</string>
+    <string name="e_time6">12.00-12.30pm</string>
+
+    <string name="e_name7">Jaala-Yojana</string>
+    <string name="e_venu7">Lab1 \nLab1</string>
+    <string name="e_time7">12.00-12.30pm \n3.30-5.00pm</string>
+
+    <string name="e_name8">Aavedana Pragathi</string>
+    <string name="e_venu8">Lab3</string>
+    <string name="e_time8">12.00-12.30pm</string>
+
+    <string name="e_name9">Vaak-Samara</string>
+    <string name="e_venu9">Sambrama Auditorium \nSouparnika Auditorium</string>
+    <string name="e_time9">12.00-1.30pm \n4.00-5.00pm</string>
+
+    <string name="e_name10">Patrika Parishkaran</string>
+    <string name="e_venu10">Souparnika Auditorium</string>
+    <string name="e_time10">12.30-1.30pm</string>
+
+    <string name="e_name11">Lunch</string>
+    <string name="e_venu11">Sadanand Auditorium</string>
+    <string name="e_time11">1.00-2.00pm</string>
+
+    <string name="e_name12">ChitraMudrika Parishkaran</string>
+    <string name="e_venu12">Lab3</string>
+    <string name="e_time12">3.00-4.30pm</string>
+
+    <string name="e_name13">Dhyuta</string>
+    <string name="e_venu13">Lab4</string>
+    <string name="e_time13">2.00-3.30pm</string>
+
+    <string name="e_name14">Rasaprashna</string>
+    <string name="e_venu14">Lab4 \nPhalguni</string>
+    <string name="e_time14">12.30-1.00pm \n4.00-5.00pm</string>
+
+    <string name="e_name15">Maada Vigyapanam</string>
+    <string name="e_venu15">Sambrama Auditorium</string>
+    <string name="e_time15">2.00-3.00PM</string>
+
+    <string name="e_name16">Tea-Break</string>
+    <string name="e_venu16">Sambrama Auditorium outlet</string>
+    <string name="e_time16">5.00-5.15pm</string>
+
+    <string name="e_name17">Tech-fun</string>
+    <string name="e_venu17">Sadanand Auditorium</string>
+    <string name="e_time17">5.15-6.45pm</string>
+
+
+    <string name="e_name18">Dinner</string>
+    <string name="e_venu18">7.30-8.30pm</string>
+    <string name="e_time18">Sadanand Auditorium</string>
+
+    <string name="e_name19">Breakfast</string>
+    <string name="e_venu19">Sadanand Auditorium</string>
+    <string name="e_time19">8.00-9.00am</string>
+
+    <string name="e_name20">Uttama Prabhandhaka</string>
+    <string name="e_venu20">Seminar Hall \nSambrama Auditorium</string>
+    <string name="e_time20">9.30-11.30am \n3.00-4.30pm</string>
+
+    <string name="e_name21">Nidhi Shodhan</string>
+    <string name="e_venu21">Class room 402 \nClass room 402</string>
+    <string name="e_time21">9.30-11.30am \n2.00-4.00pm</string>
+
+    <string name="e_name22">Samhita</string>
+    <string name="e_venu22">Lab4</string>
+    <string name="e_time22">9.15-11.15am</string>
+
+    <string name="e_name23">Jaala-Yojana</string>
+    <string name="e_venu23">Lab1</string>
+    <string name="e_time23">9.15-11.15am</string>
+
+    <string name="e_name24">Aavedana Pragathi</string>
+    <string name="e_venu24">Lab3</string>
+    <string name="e_time24">9.15-11.15am</string>
+
+    <string name="e_name25">Vaak-Samara</string>
+    <string name="e_venu25">Sambrama Auditorium</string>
+    <string name="e_time25">9.15-11.00am</string>
+
+    <string name="e_name26">ChitraMudrika Parishkaran</string>
+    <string name="e_venu26">Lab3</string>
+    <string name="e_time26">11.30-1.30pm</string>
+
+    <string name="e_name27">Rasaprashna</string>
+    <string name="e_venu27">Sambrama Auditorium</string>
+    <string name="e_time27">11.15-12.30pm</string>
+
+    <string name="e_name28">Maada Vigyapanam</string>
+    <string name="e_venu28">Sambrama Auditorium</string>
+    <string name="e_time28">12.30-1.30pm</string>
+
+    <string name="e_name29">Lunch Break</string>
+    <string name="e_venu29">Sadanand Auditorium</string>
+    <string name="e_time29">1.00-2.00pm</string>
+
+
+    <string name="e_name30">Dhyuta</string>
+    <string name="e_venu30">Sambrama Auditorium</string>
+    <string name="e_time30">2.00-3.00pm</string>
+
+    <string name="e_name31">Patrika Parishkaran</string>
+    <string name="e_venu31">Souparnika Auditorium</string>
+    <string name="e_time31">2.00-3.30pm</string>
+
+    <string name="e_name32">Tea-Break</string>
+    <string name="e_venu32">Sambrama Auditorium</string>
+    <string name="e_time32">4.30-4.45pm</string>
+
+    <string name="e_name33">Valedictory Function</string>
+    <string name="e_venu33">Sambrama Auditorium</string>
+    <string name="e_time33">4.45-6.00pm</string>
+
+
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+
+     <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_gallary">Gallary</string>
+
+
+
+</resources>
